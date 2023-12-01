@@ -27,9 +27,10 @@ let SQLsRevClosedYes = 0
 let SQlsMTDRevClosed = 0
 
 
-// xxxx
+// create object of rep names
 let reps_name = {}
 
+//closeddeals is the SalesForce odject with required information
 closeddeals.data.forEach( x=> {
  let closedate = new Date(x.CloseDate)
  
@@ -55,7 +56,7 @@ orderedleaderboard.sort((a, b) => b[1] - a[1]);
 
 const sortedLeaderboard =  Object.fromEntries(orderedleaderboard);
 
-
+// Message is with Slack Markdown
 let leaderboardmes = ''
 for (rep in sortedLeaderboard) {
   let row = "  •  " + rep + ": $" + reps_name[rep].toLocaleString() + "\n"
@@ -63,9 +64,9 @@ for (rep in sortedLeaderboard) {
 }
 
 
-
-const message2 = "*Daily Sales Leaderboard for the Month:*\n"
+// Message is with Slack Markdown
+const message = "*Daily Sales Leaderboard for the Month:*\n"
 + leaderboardmes + "\n"
 
-return message2
+return message
 
