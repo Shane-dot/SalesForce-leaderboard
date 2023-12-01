@@ -1,1 +1,7 @@
+1. Create a SalesForce resource in Retool -> https://retool.com/integrations/salesforce
 
+2. Create a Slack Resource in Retool -> https://retool.com/integrations/slack 
+
+3. Create a Retool workflow -> https://retool.com/products/workflows
+
+4. Retool workflow flow 
