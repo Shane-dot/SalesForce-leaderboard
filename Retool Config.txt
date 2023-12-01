@@ -6,6 +6,8 @@
 
 4. Retool workflow flow:
   1. Create trigger (daily, weekly etc)
-  2. Run SalesForce query ->
-  3. Run JavaScript to process the data and create the slack message -> 
-  4. Send Slack Message -> 
+  2. Run SalesForce query -> SalesForce query.txt
+  3. Run JavaScript to process the data and create the slack message -> proces_SalesForce_to_Slack Message.js
+  4. Send Slack Message, config to the channel to send to: 
+
+
