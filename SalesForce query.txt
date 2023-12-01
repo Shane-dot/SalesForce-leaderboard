@@ -1,0 +1,7 @@
+SELECT CreatedDate, ARR__c, CloseDate, OwnerId, Owner.Name
+From Opportunity 
+where StageName in ('Closed Won')
+
+order by CloseDate desc
+
+// The names used may vary based on how your SaleForce is configured. Go to Setting -> Object Manager -> Opportunities to see details
