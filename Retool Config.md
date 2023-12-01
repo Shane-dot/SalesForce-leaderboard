@@ -10,4 +10,7 @@
   3. Run JavaScript to process the data and create the slack message -> proces_SalesForce_to_Slack Message.js
   4. Send Slack Message, config to the channel to send to: 
 
+<img width="406" alt="Screenshot1" src="https://github.com/Shane-dot/SalesForce-leaderboard/assets/54682778/f65d87a0-5b3c-41d0-97ed-d6064f748b3d">
 
+Overall workflow:
+<img width="1211" alt="Screenshot2" src="https://github.com/Shane-dot/SalesForce-leaderboard/assets/54682778/5d708ec2-bfc3-4b89-9437-ae1cd1584c9b">
